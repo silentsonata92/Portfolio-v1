@@ -2,7 +2,7 @@ body {
   display: block;
   overflow-x: hidden;
   background-color: rgb(33, 37, 42);
-  background-image: url(./Assets/Programmer-Background-Image.jpg);
+  background-image: url(../Images/Programmer-Background-Image.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

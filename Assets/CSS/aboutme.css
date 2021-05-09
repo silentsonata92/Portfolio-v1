@@ -1,13 +1,15 @@
 body {
   display: block;
   overflow-x: hidden;
-  background-image: url(./Assets/Programmer-Background-Image.jpg);
+  background-image: url(../Images/Programmer-Background-Image.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgb(33, 37, 42);
   height: 100%;
 }
+
+@media only screen and (max-width: 600px) {}
 
 nav {
   background-color: aliceblue;
@@ -81,10 +83,11 @@ div.container1 {
   left: 7%;
   padding: 30px;
 }
-  .card-body3 {
-    margin: auto;
-    position: relative;
-    left: 2%;
-    padding:40px;
-    bottom: 10%;
-  }
+
+.card-body3 {
+  margin: auto;
+  position: relative;
+  left: 2%;
+  padding: 40px;
+  bottom: 10%;
+}
