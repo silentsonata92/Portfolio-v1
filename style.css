@@ -1,0 +1,62 @@
+body {
+  display: block;
+  overflow-x: hidden;
+  background-color: rgb(33, 37, 42);
+  background-image: url(./Assets/Programmer-Background-Image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+nav {
+  background-color: aliceblue;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.Background {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+section.container {
+  margin-top: 1%;
+  text-align: center;
+  color: whitesmoke;
+}
+
+footer.container {
+  padding: 20px;
+  bottom: 0;
+  text-align: right;
+  color: white;
+  margin: auto;
+  width: 18%;
+  position: relative;
+  top: 10%;
+  left: 40%;
+}
+
+#github {
+  background-color: gray;
+}
+
+.grid-container {
+  display: grid;
+  margin-top: 30%;
+}
+
+h1.col {
+  font-size: 200px;
+  text-align: center;
+  font-weight: bold;
+}

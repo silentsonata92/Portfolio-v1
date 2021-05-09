@@ -1,0 +1,71 @@
+body {
+  display: block;
+  overflow-x: hidden;
+  background-image: url(./Assets/Programmer-Background-Image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(33, 37, 42);
+  height: 100%;
+}
+
+nav {
+  background-color: aliceblue;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  height: 10px;
+  padding: 12px;
+  border: 2px solid rgb(243, 240, 240);
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  resize: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+input[type=submit] {
+  background-color: #6266658a;
+  color: rgb(255, 255, 255);
+  padding: 10px 10px;
+  border: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #484b488f;
+}
+
+form {
+  border-radius: 5px;
+  background-color: rgb(33, 37, 42);
+  padding: 50px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: white;
+  border-color: ivory;
+  position: relative;
+}
